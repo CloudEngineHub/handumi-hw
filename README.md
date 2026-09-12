@@ -15,7 +15,7 @@ for collecting bimanual manipulation data without a robot in the loop, designed
 for robot arms with parallel grippers. HandUMI mounts on the operator's thumb
 and index/middle fingers, opens and closes with a natural pinch, and uses
 interchangeable gripper tips to target different parallel-jaw robot grippers.
-One unit costs roughly $110 in parts, plus the VR headset of the user's
+One unit costs roughly $104 in parts, plus the VR headset of the user's
 preference (PICO 4 Ultra or Meta Quest 3).
 
 HandUMI demonstrations are robot-agnostic: collect the data once with the
@@ -97,7 +97,7 @@ visual observation.
 ## Wrist-View Camera
 
 The wrist camera provides the observation used during training and deployment.
-HandUMI uses the fisheye USB camera listed in the
+HandUMI uses the IMX335 USB camera (SVPRO, 5 MP) listed in the
 [Bill of Materials](bom/README.md), a compact UVC module with a wide field of
 view.
 
@@ -123,7 +123,7 @@ directly from direct human dexterity rather than an intermediary robot arm.
 The full bill of materials is available in [`bom/README.md`](bom/README.md).
 It lists every part needed to build one HandUMI unit — mechanical, structural,
 and electronic — with purchase links (Amazon and Alibaba) and per-unit prices.
-One unit comes to roughly $110 in parts; a bimanual pair to roughly $221. The
+One unit comes to roughly $104 in parts; a bimanual pair to roughly $207. The
 VR headset used for the shared tracking layer is a separate one-time purchase.
 
 ## Quick Links
