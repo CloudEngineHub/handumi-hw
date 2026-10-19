@@ -5,7 +5,7 @@
   <a href="https://github.com/murobotics-ai/handumi-sw"><img src="https://img.shields.io/badge/Software-handumi--sw-4c8bf5.svg" alt="HandUMI software"></a>
   <a href="https://murobotics-ai.github.io/handumi-sw/"><img src="https://img.shields.io/badge/Docs-GitHub_Pages-AF0000.svg" alt="HandUMI documentation on GitHub Pages"></a>
   <a href="https://murobotics.ai/research/handumi"><img src="https://img.shields.io/badge/Project-Website-222222.svg" alt="HandUMI project website"></a>
-  <a href="https://huggingface.co/NONHUMAN-RESEARCH"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Data_%26_Checkpoints-FFD21E.svg" alt="HandUMI data and checkpoints on Hugging Face"></a>
+  <a href="https://huggingface.co/collections/murobotics/handumi-towel-folding-6ad6a18887ac469cd9e20bc7"><img src="https://img.shields.io/badge/%F0%9F%A4%97-Data_%26_Checkpoints-FFD21E.svg" alt="HandUMI data and checkpoints on Hugging Face"></a>
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ Raul Bastidas, Mauricio Olivera, Bryan Bastidas
 Mu Robotics · McGill University · PUCP · NONHUMAN · TUM · UPC
 
 [Project website](https://murobotics.ai/research/handumi) ·
-[Data and checkpoints](https://huggingface.co/NONHUMAN-RESEARCH) ·
+[Data and checkpoints](https://huggingface.co/collections/murobotics/handumi-towel-folding-6ad6a18887ac469cd9e20bc7) ·
 [Software](https://github.com/murobotics-ai/handumi-sw) ·
 [Quest app](https://github.com/murobotics-ai/handumi-quest-app) ·
 [Results](https://github.com/murobotics-ai/handumi-sw#paper)
@@ -163,7 +163,7 @@ tax and shipping).
 - [Documentation](https://murobotics-ai.github.io/handumi-sw/)
 - [Quest app](https://github.com/murobotics-ai/handumi-quest-app)
 - [Project website](https://murobotics.ai/research/handumi)
-- [Data and checkpoints](https://huggingface.co/NONHUMAN-RESEARCH)
+- [Data and checkpoints](https://huggingface.co/collections/murobotics/handumi-towel-folding-6ad6a18887ac469cd9e20bc7)
 
 ## Hand-Fit Design
 
