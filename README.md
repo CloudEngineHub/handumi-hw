@@ -38,28 +38,13 @@ Mu Robotics · McGill University · PUCP · NONHUMAN · TUM · UPC
 [Project website](https://murobotics.ai/research/handumi) ·
 [Data and checkpoints](https://huggingface.co/NONHUMAN-RESEARCH) ·
 [Software](https://github.com/murobotics-ai/handumi-sw) ·
-[Quest app](https://github.com/murobotics-ai/handumi-quest-app)
+[Quest app](https://github.com/murobotics-ai/handumi-quest-app) ·
+[Results](https://github.com/murobotics-ai/handumi-sw#paper)
 
-On bimanual towel folding, 562 robot-free HandUMI demonstrations (111.9 min,
-no robot-collected data) were retargeted to AgileX PiPER arms and used to train
-policies that fold the towel on the real robot:
-
-| Policy | Training data | Real-robot successes |
-|---|---|---:|
-| ACT | First 101 HandUMI episodes | 0/20 |
-| ACT | 562 HandUMI episodes | 12/20 |
-| π0.5 (base, no fine-tuning) | — | 0/20 |
-| π0.5 (fine-tuned) | 562 HandUMI episodes | 7/20 |
-
-<p align="center">
-  <img src="media/paper-towel-folding.png" alt="Towel-folding task: left and right fisheye wrist views, ZED Mini top view, and a PiPER rollout from initial state to grasping edges to folding the towel" width="520">
-  <img src="media/paper-policy-results.png" alt="Real-robot success rates on towel folding: ACT 101 episodes 0/20, ACT 562 episodes 12/20, pi0.5 base 0/20, pi0.5 562 episodes 7/20" width="300">
-</p>
-
-The same recordings retarget in simulation to seven bimanual arms with
-sub-millimeter median IK position error; the list of supported arms lives in
-the [software README](https://github.com/murobotics-ai/handumi-sw#supported-bimanual-embodiments).
-See the paper for the capture-alignment, calibration and retargeting results.
+This repository holds the hardware described in the paper. Policies trained
+only on robot-free HandUMI data fold a towel on real AgileX PiPER arms; the
+results, the retargeting pipeline and the supported arms are in
+[handumi-sw](https://github.com/murobotics-ai/handumi-sw#paper).
 
 ## Why Teleoperation Is Not Scalable?
 
