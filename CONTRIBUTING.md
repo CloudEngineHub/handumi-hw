@@ -12,7 +12,8 @@ hardware changes, or submitting pull requests.
 - Add or improve specific gripper tips, camera mounts or hand controllers.
 - Improve the bill of materials with equivalent parts, better sourcing, or
   corrected prices.
-- Contribute software once the `software/` package is published.
+- Contribute software in
+  [murobotics-ai/handumi-sw](https://github.com/murobotics-ai/handumi-sw).
 - Share validation results from real builds, prints, and data-collection runs.
 
 ## Before You Start
@@ -37,7 +38,7 @@ Large changes include:
 bom/       Bill of materials and sourcing notes
 hardware/  Printable STL files and editable STEP sources
 media/     Images and GIFs used by the documentation
-software/  HandUMI software, currently under development
+software/  Pointer to the HandUMI software repository
 ```
 
 Hardware source files are organized in parallel:

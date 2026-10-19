@@ -2,12 +2,10 @@
 
 This folder contains the HandUMI printable hardware.
 
-HandUMI has two hardware configurations that share the same core printed frame:
-
-- Data collector: worn on the hand to record wrist-view video, gripper width,
-  and tracker pose.
-- Deployment unit: mounted on a robot end-effector with matching camera
-  viewpoint and gripper-tip geometry.
+HandUMI is worn on the hand to record wrist-view video, gripper width, and
+controller pose. It is matched to the robot, not the other way around: the
+target robot keeps its installed parallel-jaw gripper, and HandUMI carries a
+printed tip shaped like that gripper.
 
 ## Folder Layout
 
@@ -72,11 +70,19 @@ in a future update.
 
 ## Assembly
 
+Follow the step-by-step [Assembly Guide](HandUMI_Assembly_Guide.pdf) (PDF,
+12 steps with CAD views). It walks through the left-hand unit; the right-hand
+unit mirrors it with the `right_handumi` parts.
+
+> **Note:** HandUMI uses only M2 and M3 fasteners. In step 10 (camera
+> support), use two M2 × 8 socket-head screws and two M2 hex nuts instead of
+> the M2.5 parts named in the guide.
+
 HandUMI assembly is organized around three modules:
 
 1. Finger-worn body and thumb/index-middle finger cradle.
 2. Camera and tracking mounts.
 3. Detachable robot-specific gripper tip.
 
-For deployment on a new arm, keep the main body unchanged and swap only the
-gripper tip.
+To collect data for a different arm, keep the main body unchanged and swap
+only the gripper tip. The robot itself needs no hardware changes.
