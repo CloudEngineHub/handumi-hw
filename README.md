@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="media/cover-handumi.png" alt="HandUMI - An 8x cheaper way to collect data for bimanual robots" width="800">
+  <img src="media/paper-overview.png" alt="HandUMI overview: operation setup, labelled hand-worn device (fisheye camera, VR controller, servo encoder, swappable fingertips), PICO 4 Ultra or Meta Quest tracking, and recorded trajectories retargeted to seven bimanual arms" width="800">
 </p>
 
 A hand-worn, open-source variant of the Universal Manipulation Interface (UMI)
@@ -40,10 +40,6 @@ Mu Robotics · McGill University · PUCP · NONHUMAN · TUM · UPC
 [Software](https://github.com/murobotics-ai/handumi-sw) ·
 [Quest app](https://github.com/murobotics-ai/handumi-quest-app)
 
-<p align="center">
-  <img src="media/paper-overview.png" alt="HandUMI overview: operation setup, labelled hand-worn device (fisheye camera, VR controller, servo encoder, swappable fingertips), PICO 4 Ultra or Meta Quest tracking, and recorded trajectories retargeted to seven bimanual arms" width="800">
-</p>
-
 On bimanual towel folding, 562 robot-free HandUMI demonstrations (111.9 min,
 no robot-collected data) were retargeted to AgileX PiPER arms and used to train
 policies that fold the towel on the real robot:
@@ -60,10 +56,10 @@ policies that fold the towel on the real robot:
   <img src="media/paper-policy-results.png" alt="Real-robot success rates on towel folding: ACT 101 episodes 0/20, ACT 562 episodes 12/20, pi0.5 base 0/20, pi0.5 562 episodes 7/20" width="300">
 </p>
 
-The same recordings retarget in simulation to seven bimanual arms (AgileX
-PiPER, Enactic OpenArm v1, TRLC-DK1, I2RT YAM, MakerMods Metal Arm, Galaxea R1
-Lite and ARX X5) with sub-millimeter median IK position error. See the paper
-for the capture-alignment, calibration and retargeting results.
+The same recordings retarget in simulation to seven bimanual arms with
+sub-millimeter median IK position error; the list of supported arms lives in
+the [software README](https://github.com/murobotics-ai/handumi-sw#supported-bimanual-embodiments).
+See the paper for the capture-alignment, calibration and retargeting results.
 
 ## Why Teleoperation Is Not Scalable?
 
