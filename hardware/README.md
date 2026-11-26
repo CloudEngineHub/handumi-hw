@@ -20,19 +20,36 @@ STL/
     |-- AgileX-Piper/
     |-- ARX-X5-2023/
     |-- Dream-Gripper/
+    |-- Galaxea-R1-Lite/
+    |-- I2RT-YAM/
+    |-- MakerMods-Metal/
+    |-- OpenArmv1/
     |-- Trossen-WidowXAI/
     `-- UMI-Gripper/
 
 STEP/
+|-- Left HandUMI Assembly - YAM.step   # Complete left-hand assembly
+|-- Right HandUMI Assembly - YAM.step  # Complete right-hand assembly
 |-- left_handumi/   # STEP sources for the left-hand parts
 |-- right_handumi/  # STEP sources for the right-hand parts
 `-- gripper_tips/   # STEP sources for the tips, for custom adjustments
     |-- AgileX-Piper/
     |-- ARX-X5-2023/
     |-- Dream-Gripper/
+    |-- Galaxea-R1-Lite/
+    |-- I2RT-YAM/
+    |-- MakerMods-Metal/
+    |-- OpenArmsv1/
     |-- Trossen-WidowXAI/
     `-- UMI-Gripper/
 ```
+
+The complete left and right YAM assembly models are provided as STEP files in
+`STEP/`. The Bambu Studio projects `handumi_YAM_black.gcode.3mf` and
+`handumi_YAM_purple.gcode.3mf` contain multi-plate print layouts for a Bambu
+Lab A1 (0.4 mm nozzle). Open either `.3mf` in Bambu Studio to view its plates
+and print settings. The filenames identify the black and purple color
+versions, respectively.
 
 ## Calibration Board
 
@@ -53,8 +70,16 @@ Currently supported grippers:
 - AgileX Piper (`STL/gripper_tips/AgileX-Piper/`)
 - ARX X5 2023 (`STL/gripper_tips/ARX-X5-2023/`)
 - Dream Gripper TRLC (`STL/gripper_tips/Dream-Gripper/`)
+- I2RT YAM (`STL/gripper_tips/I2RT-YAM/`)
+- OpenArm v1 (`STL/gripper_tips/OpenArmv1/`)
 - Trossen WidowX AI (`STL/gripper_tips/Trossen-WidowXAI/`)
 - UMI Gripper (`STL/gripper_tips/UMI-Gripper/`)
+
+The OpenArm v1, AgileX Piper, and I2RT YAM configurations use the HandUMI
+finger-link v2 parts. Their STEP sources are in `STEP/left_handumi/` and
+`STEP/right_handumi/`; available STL files are in `STL/left_handumi/`. Use
+these v2 links when assembling HandUMI for these grippers. The original
+finger links remain available for other setups.
 
 Any robot with a comparable parallel-jaw gripper can be supported by designing
 and printing a matching tip. Start from the STEP sources in
